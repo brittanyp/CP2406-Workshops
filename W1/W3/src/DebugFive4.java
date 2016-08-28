@@ -15,14 +15,14 @@ public class DebugFive4
         three = Integer.parseInt(str);
         str = JOptionPane.showInputDialog(null,"Enter an integer");
         four = Integer.parseInt(str);
-        switch (one > two && one > three && one < four){
-            output = "Highest is " + one;
-        else if(two > one || two > three && two > four)
-            output = "Highest is " + two;}
-        else if(three > one && three > two || three == four)
-            output = "Highest is " + three;
-        else
-            output = "Highest is " + three;}
-        JOptionPane.showMessageDialog(null, output);
+        //switch (one > two && one > three && one < four){
+        //    output = "Highest is " + one;
+        //else if(two > one || two > three && two > four)
+        //    output = "Highest is " + two;}
+       // else if(three > one && three > two || three == four)
+       //     output = "Highest is " + three;
+       // else
+        //    output = "Highest is " + three;}
+        //JOptionPane.showMessageDialog(null, output);
     }
 }
